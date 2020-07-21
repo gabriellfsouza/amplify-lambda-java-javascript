@@ -1,0 +1,13 @@
+{
+  "mutableParametersState": {
+    "permissions": {
+      "function": {
+        "javasample": [
+          "create",
+          "read"
+        ]
+      }
+    }
+  },
+  "lambdaLayers": []
+}

@@ -1,0 +1,15 @@
+{
+  "lambdaLayers": [],
+  "mutableParametersState": {
+    "permissions": {
+      "storage": {
+        "samplestorage": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

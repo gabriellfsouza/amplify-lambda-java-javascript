@@ -1,0 +1,20 @@
+{
+    "spykes": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyjava-spykes-180812-authRole",
+            "UnauthRoleArn": "arn:aws:iam::146550769976:role/amplify-amplifyjava-spykes-180812-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::146550769976:role/amplify-amplifyjava-spykes-180812-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-amplifyjava-spykes-180812-deployment",
+            "UnauthRoleName": "amplify-amplifyjava-spykes-180812-unauthRole",
+            "StackName": "amplify-amplifyjava-spykes-180812",
+            "StackId": "arn:aws:cloudformation:us-east-1:146550769976:stack/amplify-amplifyjava-spykes-180812/f86ed1a0-c54c-11ea-a5d2-0e28043c5c55",
+            "AmplifyAppId": "d1tvbgcspfnpkq"
+        },
+        "categories": {
+            "auth": {
+                "amplifyjava32be40bf": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+	"function": {
+		"javasample": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": [
+				{
+					"category": "storage",
+					"resourceName": "samplestorage",
+					"attributes": [
+						"BucketName"
+					]
+				}
+			]
+		},
+		"jscaller": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "javasample",
+					"attributes": [
+						"Name"
+					]
+				}
+			]
+		}
+	},
+	"auth": {
+		"amplifyjava32be40bf": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"samplestorage": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
